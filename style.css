@@ -1,0 +1,147 @@
+header {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+header nav h1 {
+  display: inline;
+  padding: 10px;
+}
+
+header nav ul {
+    float: right;
+    list-style-type: none;
+    display: inline;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+    align-text: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Teacher-related CSS */
+
+.teacher {
+  width: 30%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 20px;
+}
+
+.teacherpic {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  display: inline-flex;
+  margin-right: 25px;
+}
+
+.name {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+}
+
+.bottomboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: flex-start;
+  padding: 10px 0px;
+}
+
+/* Student-related CSS */
+
+.student {
+  width: 25%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 20px;
+  align-items: center;
+}
+
+.studentname {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #000000;
+}
+
+.studentname p {
+  margin-bottom: 0px;
+  }
+
+.studentpic {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  display: flex;
+}
+
+.studentboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.headers p {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Course-related CSS */
+.courses {
+  width: 40%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.coursename {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.courseinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.coursename p {
+  margin: 0px;
+  padding: 0px;
+  }
+
+.courseinfo p {
+  margin: 10px;
+  }
