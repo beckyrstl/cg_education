@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 header {
     margin-bottom: 20px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header nav h1 {
@@ -20,20 +23,34 @@ header nav ul li {
     align-text: center;
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+  }
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #42afb2;
+  text-decoration: underline;
+}
+
+
 .main {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Teacher-related CSS */
 
 .teacher {
   width: 30%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #000000;
+  border: 2px solid #425bb2;
   margin: 20px;
 }
 
@@ -50,7 +67,8 @@ header nav ul li {
   padding: 15px 20px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #425bb2;
+  background-color: #cfe0e0;
 }
 
 .bottomboxes {
@@ -59,7 +77,20 @@ header nav ul li {
   justify-content: space-around;
   text-align: center;
   align-items: flex-start;
-  padding: 10px 0px;
+
+}
+
+.teachercourses {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-right: 1px solid #425bb2;
+}
+
+.teacherrating {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 /* Student-related CSS */
@@ -68,7 +99,7 @@ header nav ul li {
   width: 25%;
   border-width: 2px;
   border-style: solid;
-  border-color: #000000;
+  border-color: #425bb2;
   margin: 20px;
   align-items: center;
 }
@@ -79,7 +110,8 @@ header nav ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #425bb2;
+  background-color: #cfe0e0;
 }
 
 .studentname p {
@@ -112,7 +144,7 @@ header nav ul li {
   width: 40%;
   border-width: 2px;
   border-style: solid;
-  border-color: #000000;
+  border-color: #425bb2;
   margin: 20px;
   display: flex;
   flex-direction: row;
@@ -134,7 +166,9 @@ header nav ul li {
   justify-content: center;
   width: 80%;
   text-align: center;
-  margin: 15px 0px;
+  padding: 15px 0px;
+  background-color: #cfe0e0;
+  border-left: 1px solid #425bb2
 }
 
 .coursename p {
